@@ -1,14 +1,14 @@
 {
-    "name": "psliwa/php-pdf",
-    "description": "Pdf and graphic files generator library for PHP.",
-    "keywords": ["PDF", "PHPPdf"],
+    "name": "appotter/phppdf",
+    "description": "Pdf and graphic files generator library for PHP (Combined with Thai font named `THSarabun`)",
+    "keywords": ["PDF", "PHPPdf", "Thai PHPPdf"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name":     "Piotr Śliwa",
+            "name":     "Piotr Śliwa / AP Potter",
             "homepage": "http://ohey.pl",
-            "email":    "peter.pl7@gmail.com"
+            "email":    "peter.pl7@gmail.com / iamhottest2pm@gmail.com"
         }     
     ],
     "require": {
