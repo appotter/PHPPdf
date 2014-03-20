@@ -6,9 +6,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name":     "Piotr Śliwa / AP Potter",
+            "name":     "Piotr Śliwa",
             "homepage": "http://ohey.pl",
-            "email":    "peter.pl7@gmail.com / iamhottest2pm@gmail.com"
+            "email":    "peter.pl7@gmail.com"
         }     
     ],
     "require": {
