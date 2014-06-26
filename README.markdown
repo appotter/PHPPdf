@@ -156,7 +156,13 @@ To set the page dimensions you use the "page-size" attribute of the page or dyna
 
 The value syntax of this attribute is "width:height".
 
-There are however standard predefined values: a4, a4-landscape, letter and letter-landscape.
+There are however standard predefined values:
+  * A format: from 4A0 to A10
+  * B format: from B0 to B10
+  * C format: from C0 to C10
+  * US sizes: legal and letter
+
+All formats are supported in portrait and lanscape.
 
 Example:
 
@@ -469,7 +475,7 @@ There are tags that are only bags for attributes, a set of tags etc:
 * stylesheet - stylesheet for parent
 * attribute - simple attribute declaration, direct child of "stylesheet" tag. Required attributes of this element: name - attribute name, value - attribute value
 * complex-attribute - complex attribute declaration, direct child of "stylesheet" tag. Required attributes of this element: name - complex attribute name
-* placeholders - defines placeholders for parent tag. Children tags of placeholder are specyfic for every parent tag.
+* placeholders - defines placeholders for parent tag. Children tags of placeholder are specyfic for every parent tag. **It should be first tag in parent**
 * metadata - defines metadata of pdf document, direct child of document root
 * behaviours - defines behaviours for a parent tag. Supported behaviours: href, ref, bookmark, note (action as same as for attributes with as same as name)
 
